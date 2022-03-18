@@ -2,7 +2,7 @@
 
 # Project: Portfolio
 
-> This is my working portfolio. Here you can see my basic information, contact information & my technical projects.
+> This is my working portfolio. Here you can see my basic information, contact information & my technical projects that I recently completed.
 
 
 ## Built With
