@@ -1,3 +1,4 @@
+/* stylelint-disable length-zero-no-unit */
 .container {
   height: 590px;
   width: 375px;
@@ -32,11 +33,12 @@ h2 {
   font-weight: 700;
   line-height: 32px;
   text-align: left;
-  color: #ffffff;
+  color: #fff;
 }
 
 p {
   height: 123px;
+  /* stylelint-disable-next-line length-zero-no-unit */
   margin: 12px 24px 0px 24px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -45,7 +47,7 @@ p {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  color: #ffffff;
+  color: #fff;
 }
 
 ul {
