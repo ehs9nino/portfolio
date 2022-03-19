@@ -1,7 +1,16 @@
-/* stylelint-disable length-zero-no-unit */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html body {
+  margin: 0;
+  padding: 0;
+  width: 375px;
+}
+
 .container {
   height: 590px;
-  width: 375px;
   background: #1c1a19;
   background-image: url("./svg/illustration-header-mobile.svg");
   background-repeat: no-repeat;
@@ -48,14 +57,14 @@ p {
   color: #fff;
 }
 
-ul {
+.icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 141px;
 }
 
-li {
+.icons li {
   list-style-type: none;
 }
 
@@ -94,4 +103,138 @@ li {
   margin-bottom: 15px;
   margin-top: 7px;
   border-radius: 0;
+}
+
+.container-2 {
+  margin-top: -120px;
+  background-color: white;
+  height: max-content;
+}
+
+.container-2 h1 {
+  height: 83px;
+  width: 327px;
+  padding-top: 120px;
+  font-family: "Crete Round", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #1c1a19;
+}
+
+.line {
+  position: static;
+  width: 327px;
+  height: 0;
+  margin-bottom: 40px;
+  margin-top: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border: 1px solid #212121;
+}
+
+.container-2 img {
+  height: 237px;
+  width: 327px;
+  margin-left: 24px;
+  margin-top: 0;
+}
+
+.container-2 h2 {
+  width: 327px;
+  height: 36px;
+  margin: 14px 24px 2px 24px;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+}
+
+.stories {
+  height: 147px;
+  width: 327px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #091e42;
+}
+
+.base1 {
+  grid-area: a;
+  padding: 10px 12px 10px 12px;
+  border: 1px solid black;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  font-family: "Crete Round", serif;
+  color: #091e72;
+  
+}
+
+.base2 {
+  grid-area: b;
+  padding: 10px 12px 10px 12px;
+  border: 1px solid black;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  font-family: "Crete Round", serif;
+  color: #091e72;
+}
+
+.base3 {
+  grid-area: c;
+  padding: 10px 12px 10px 12px;
+  border: 1px solid black;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  font-family: "Crete Round", serif;
+  color: #091e72;
+}
+
+.base4 {
+  grid-area: d;
+  padding: 10px 12px 10px 12px;
+  border: 1px solid black;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  font-family: "Crete Round", serif;
+  color: #091e72;
+}
+
+.base5{
+  grid-area: e;
+  background-color: #ff6b00;
+  padding: 12px;
+}
+.button-section-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 324px;
+  margin: 12px 24px 12px 24px;
+  list-style-type: none;
+
 }
