@@ -173,6 +173,7 @@ p {
 }
 
 .list1 {
+  padding: 12px;
   text-align-last: center;
   border: 1px solid black;
   height: 40px;
@@ -187,6 +188,7 @@ p {
 }
 
 .work1-button {
+  padding-top: 10px;
   background-color: #ff6b00;
   grid-column: 1 / span 2;
   font-family: "Inter", sans-serif;
@@ -197,6 +199,12 @@ p {
   letter-spacing: 0.03em;
   text-align: center;
   color: white;
+}
+
+.work1-button :hover {
+  padding-top: 10px;
+  background-color: #fff5e1;
+  color: #ff6b00;
 }
 
 .work-2 {
@@ -227,7 +235,7 @@ p {
 }
 
 .work2-content > p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -249,7 +257,7 @@ p {
   text-align-last: center;
   color: white;
   height: 40px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -258,18 +266,28 @@ p {
   text-align: left;
 }
 
+.work2-button p {
+  height: 50px;
+}
+
 .work2-button {
   border: #ff6b00;
   margin: 0 -16px 0 -16px;
   background-color: #ff6b00;
   margin-top: 22px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
+  justify-self: center;
+}
+
+.work2-button :hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
 }
 
 .about-me-section {
@@ -295,7 +313,7 @@ p {
 }
 
 .about-me1-content > h1 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 400;
@@ -306,7 +324,7 @@ p {
 }
 
 .about-me1-content > p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -316,19 +334,63 @@ p {
 }
 
 .about-me1-content > button {
-  padding: 12px;
+  padding-top: 12px;
   width: 161px;
   background-color: #ff6b00;
   border-color: #ff6b00;
   color: white;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
 }
 
+.button :hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+}
+
 .line2 {
   width: 327px;
   border: 1px solid white;
+}
+
+.about-me-2 {
+  display: grid;
+  margin-top: 128px;
+  justify-content: center;
+  gap: 44px;
+}
+
+.about-me-2 .topic {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.discussion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-2 .topic > p {
+  font-family: "InaiMathi", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+}
+
+.about-me-2 ul > li {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 43px;
+  color: white;
+  list-style-type: none;
 }
