@@ -1,16 +1,15 @@
-* {
+* ::after ::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  color: black;
   background-color: white;
 }
 
 .container {
-  background-color: white;
+  color: white;
 }
 
 .main {
@@ -105,10 +104,6 @@ p {
   grid-template-columns: 100%;
 }
 
-.work-section > * {
-  padding: 0 24px 0 24px;
-}
-
 .work-1 {
   display: flex;
   flex-direction: column;
@@ -166,13 +161,15 @@ p {
 }
 
 .work1-content > ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
   gap: 12px;
   list-style: none;
+  padding-inline-start: inherit;
 }
 
-.list1 {
+.list1 > a {
+  text-decoration: none;
   padding: 12px;
   text-align-last: center;
   border: 1px solid black;
@@ -188,9 +185,9 @@ p {
 }
 
 .work1-button {
+  width: 125px;
   padding-top: 10px;
   background-color: #ff6b00;
-  grid-column: 1 / span 2;
   font-family: "Inter", sans-serif;
   font-size: 17px;
   font-style: normal;
@@ -202,28 +199,26 @@ p {
 }
 
 .work1-button :hover {
-  padding-top: 10px;
   background-color: #fff5e1;
   color: #ff6b00;
 }
 
 .work-2 {
+  width: 327px;
+  margin: auto;
   margin-top: 24px;
   background: url(./svg/ImgPlaceholder1.svg);
+  background-color: #1c1a19;
   background-repeat: no-repeat;
   background-position-x: center;
 }
 
-.work-2 > * {
-  padding: 0 16px 0 16px;
-}
-
-.work2-content {
-  display: flex;
-  flex-direction: column;
+.work2-content > * {
+  padding: 0 12px 0 12px;
 }
 
 .work2-content > h1 {
+  margin-top: 84px;
   font-family: "Crete Round", serif;
   font-size: 32px;
   font-style: normal;
@@ -244,37 +239,35 @@ p {
   text-align: left;
 }
 
-.work2-content > ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.work2-content ul {
+  display: flex;
   gap: 12px;
-  list-style: none;
-  align-items: center;
+  list-style-type: none;
 }
 
-.list2 {
-  background-color: #ffffff3d;
-  text-align-last: center;
+.work2-content li {
+  margin-bottom: 12px;
+}
+
+.work2-content ul li a {
+  text-decoration: none;
   color: white;
-  height: 40px;
-  font-family: "Inter", sans-serif;
-  font-size: 15px;
+  padding: 12px;
+  border: 1px solid black;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
+  font-size: 15px;
   line-height: 20px;
-  letter-spacing: 0;
-  text-align: left;
+  background-color: #ffffff3d;
 }
 
-.work2-button p {
+.work2-button input {
+  width: 327px;
   height: 50px;
-}
-
-.work2-button {
+  color: white;
   border: #ff6b00;
-  margin: 0 -16px 0 -16px;
   background-color: #ff6b00;
-  margin-top: 22px;
   font-family: "Inter", sans-serif;
   font-size: 17px;
   font-style: normal;
@@ -291,19 +284,21 @@ p {
 }
 
 .about-me-section {
-  background-color: #1c1a19;
   margin-top: 120px;
-  padding: 0 24px 0 24px;
+  background-color: #1c1a19;
 }
 
 .about-me-1 {
   background: url(./svg/illustration-about-me-mobile.svg);
-  background-position: right 0 top 340px;
+  background-color: #1c1a19;
+  background-position: right 0 top 400px;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 211px;
+  width: 327px;
+  margin: auto;
 }
 
 .about-me1-content {
@@ -333,7 +328,7 @@ p {
   text-align: left;
 }
 
-.about-me1-content > button {
+.about-me-button {
   padding-top: 12px;
   width: 161px;
   background-color: #ff6b00;
@@ -346,7 +341,7 @@ p {
   line-height: 24px;
 }
 
-.button :hover {
+.about-me-button :hover {
   background-color: #fff5e1;
   color: #ff6b00;
 }
@@ -357,8 +352,10 @@ p {
 }
 
 .about-me-2 {
+  width: 327px;
+  margin: auto;
+  background-color: #1c1a19;
   display: grid;
-  margin-top: 128px;
   justify-content: center;
   gap: 44px;
 }
@@ -370,10 +367,12 @@ p {
 }
 
 .discussion {
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  list-style: none;
 }
 
 .about-me-2 .topic > p {
@@ -385,7 +384,7 @@ p {
   color: white;
 }
 
-.about-me-2 ul > li {
+.about-me-2 ul li > a {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 200;
@@ -393,4 +392,5 @@ p {
   line-height: 43px;
   color: white;
   list-style-type: none;
+  text-decoration: none;
 }
