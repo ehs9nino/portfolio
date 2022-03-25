@@ -1,43 +1,84 @@
-/* stylelint-disable length-zero-no-unit */
+* ::after ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
 .container {
-  height: 590px;
-  width: 375px;
-  background: #1c1a19;
-  background-image: url("./svg/illustration-header-mobile.svg");
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1a19;
+  background-image: url(./svg/illustration-header-mobile.svg);
+  background-position: right;
+  background-position-y: bottom;
   background-repeat: no-repeat;
-  background-position: right 0 bottom -50px;
-  background-size: 35%;
+  background-size: 30%;
+}
+
+header {
+  background-color: #3c3a39;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  align-self: flex-end;
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  padding: 12px 12px 12px 24px;
+}
+
+nav {
+  align-self: flex-end;
+  padding: 12px 24px 12px 12px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px 0 24px;
+  justify-content: center;
+  gap: 12px;
 }
 
 h1 {
-  width: 324px;
-  height: 124px;
-  margin: 120px 24px 12px 24px;
+  color: #ff6b00;
   font-family: "Crete Round", serif;
   font-size: 56px;
   font-style: normal;
   font-weight: 400;
   line-height: 64px;
+  letter-spacing: 0.3700000047683716px;
   text-align: left;
-  color: #ff6b00;
+  margin-top: 120px;
 }
 
 h2 {
-  width: 324px;
-  height: 27px;
-  margin: 0 24px 0 24px;
+  color: #fff5e1;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 32px;
+  letter-spacing: 0;
   text-align: left;
-  color: #fff;
 }
 
 p {
-  height: 123px;
-  margin: 12px 24px 0 24px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -45,53 +86,311 @@ p {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  color: #fff;
+  color: white;
 }
 
-ul {
+.social-media {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 141px;
+  gap: 22.3px;
+  margin-bottom: 130px;
 }
 
-li {
+.social-media > li {
   list-style-type: none;
 }
 
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
-  height: 50px;
-  width: 375px;
-  left: 0;
-  top: 0;
-  border-radius: 0;
-  background-color: #3c3a39;
-  align-items: center;
+.work-section {
+  display: grid;
+  grid-template-columns: 100%;
 }
 
-.logo {
-  width: 77px;
-  height: 24px;
-  margin-left: 12px;
-  margin-top: 10px;
-  font-family: "Roboto", Times, serif;
-  font-size: 18px;
+.work-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.work1-visual {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.work1-visual > h1 {
+  font-family: "Crete Round", serif;
+  font-size: 40px;
   font-style: normal;
-  font-weight: 700;
-  color: white;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #1c1a19;
+}
+
+.line {
+  border: 1px solid black;
+  margin: 0 24px 56px 24px;
+}
+
+.work1-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.work1-content > h3 {
+  margin-top: 24px;
+  font-family: "Crete Round", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #091e42;
+}
+
+.work1-content > p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0;
-  text-align: center;
-  text-decoration: none;
+  text-align: left;
+  color: #091e42;
 }
 
-.menu {
-  height: 10px;
-  width: 16px;
-  margin-right: 30px;
-  margin-bottom: 15px;
-  margin-top: 7px;
-  border-radius: 0;
+.work1-content > ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  list-style: none;
+  padding-inline-start: inherit;
+}
+
+.list1 > a {
+  text-decoration: none;
+  padding: 12px;
+  text-align-last: center;
+  border: 1px solid black;
+  height: 40px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #091e42;
+}
+
+.work1-button {
+  width: 125px;
+  padding-top: 10px;
+  background-color: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: white;
+}
+
+.work1-button :hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+}
+
+.work-2 {
+  width: 327px;
+  margin: auto;
+  margin-top: 24px;
+  background: url(./svg/ImgPlaceholder1.svg);
+  background-color: #1c1a19;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.work2-content > * {
+  padding: 0 12px 0 12px;
+}
+
+.work2-content > h1 {
+  margin-top: 84px;
+  font-family: "Crete Round", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  color: white;
+}
+
+.work2-content > p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.work2-content ul {
+  display: flex;
+  gap: 12px;
+  list-style-type: none;
+}
+
+.work2-content li {
+  margin-bottom: 12px;
+}
+
+.work2-content ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+  border: 1px solid black;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  background-color: #ffffff3d;
+}
+
+.work2-button input {
+  width: 327px;
+  height: 50px;
+  color: white;
+  border: #ff6b00;
+  background-color: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  justify-self: center;
+}
+
+.work2-button :hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+}
+
+.about-me-section {
+  margin-top: 120px;
+  background-color: #1c1a19;
+}
+
+.about-me-1 {
+  background: url(./svg/illustration-about-me-mobile.svg);
+  background-color: #1c1a19;
+  background-position: right 0 top 400px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 211px;
+  width: 327px;
+  margin: auto;
+}
+
+.about-me1-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about-me1-content > h1 {
+  font-family: "Crete Round", serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
+  color: #ff6b00;
+}
+
+.about-me1-content > p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.about-me-button {
+  padding-top: 12px;
+  width: 161px;
+  background-color: #ff6b00;
+  border-color: #ff6b00;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.about-me-button :hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+}
+
+.line2 {
+  width: 327px;
+  border: 1px solid white;
+}
+
+.about-me-2 {
+  width: 327px;
+  margin: auto;
+  background-color: #1c1a19;
+  display: grid;
+  justify-content: center;
+  gap: 44px;
+}
+
+.about-me-2 .topic {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.discussion {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.about-me-2 .topic > p {
+  font-family: "InaiMathi", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+}
+
+.about-me-2 ul li > a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 43px;
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
 }
