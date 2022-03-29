@@ -60,7 +60,7 @@
             <li class="list1"><a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)">Bootstrap</a></li>
             <li class="list1"><a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby</a></li>
           </ul>
-          <button class="work1-button">See Project</button>
+          <button attribute="button" class="work1-button">See Project</button>
         </div>
       </div>
       <div class="work-2">
@@ -153,7 +153,6 @@
         </div>
         <div class="work2-button"><input type="button" value="See Project"></div>
       </div>
-  </div>
   </section>
   <section class="about-me-section">
     <div class="about-me-1">
@@ -206,28 +205,27 @@
       </ul>
     </div>
   </section>
-  </div>
   <div class="form-section">
     <h2>
       I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
     </h2>
-    <form class="from1" action="" method="post">
+    <form class="from1" action="https://formspree.io/f/xdoblzqe" method="post">
       <ul class="inputs">
         <li class="input1">
-          <input class="name" type="text" placeholder="Full Name" maxlength="30">
+          <input name="user-name" class="name" type="text" placeholder="Full Name" maxlength="30" required>
         </li>
         <li class="separator1">
           <div></div>
         </li>
         <li class="input1 email">
-          <input class="e-mail" type="email" placeholder="Email address" pattern=".+@globex\.com">
+          <input  name="user-email" class="e-mail" type="email" placeholder="Email address" required>
         </li>
         <li class="separator1">
           <div></div>
         </li>
-        <li class="input1 input2"><textarea class="text-area">Enter text here</textarea></li>
+        <li class="input1 input2"><textarea class="text-area" placeholder="Enter text here" maxlength="500" required></textarea></li>
         <li class="form-button">
-          <button class="submit" type="button">Get In Touch</button>
+          <button class="submit" type="submit">Get In Touch</button>
         </li>
       </ul>
     </form>

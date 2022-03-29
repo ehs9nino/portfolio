@@ -196,6 +196,7 @@ p {
   letter-spacing: 0.03em;
   text-align: center;
   color: white;
+  border: none;;
 }
 
 .work1-button :hover {
@@ -485,6 +486,11 @@ p {
   color: #fff;
   background-color: #ff6b00;
   padding: 12px;
+}
+
+.form-button :hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
 }
 
 .separator {
