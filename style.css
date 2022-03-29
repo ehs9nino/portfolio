@@ -398,16 +398,15 @@ p {
 .form-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  height: 917px;
-  width: 375px;
+  margin: auto;
+  text-align: center;
 }
 
 .form-section > h2 {
+  margin: 120px 24px 73px 24px;
   position: static;
-  width: 327px;
   height: 216px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -419,42 +418,89 @@ p {
 .inputs {
   display: flex;
   flex-direction: column;
-  width: 131px;
-  height: 200px;
-  justify-content: center;
-  align-items: center;
+  padding: 0;
   list-style: none;
 }
 
-.input1 .input2 {
-  position: absolute;
-  font-family: "Inter";
+.input1 {
+  margin: 0 40px 0 40px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
   line-height: 24px;
+  letter-spacing: 0;
   color: #979493;
+  display: flex;
 }
 
-.area {
-  position: absolute;
-  font-family: "Inter";
+.email {
+  margin-top: 25px;
+}
+
+.separator1 > div {
+  border: 1px solid #dbd8d7;
+  margin: 14px 24px 24px 24px;
+}
+
+.input1 > input {
+  padding-right: 100px;
+  border: none;
+  width: 295px;
+}
+
+.input2 {
+  margin: 0 24px 24px 24px;
+}
+
+.text-area {
+  background-color: #fbf8f7;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
   line-height: 24px;
-  color: #3c3a39;
+  letter-spacing: 0;
+  text-align: left;
+  padding: 12px;
+  width: 303px;
+  height: 90px;
+}
+
+.form-button {
+  text-align: left;
+  margin-left: 112px;
 }
 
 .submit {
-  position: static;
-  width: 107px;
-  height: 24px;
-  font-family: "Inter";
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
   font-style: normal;
   font-weight: 700;
-  font-size: 17px;
   line-height: 24px;
-  color: #ffffff;
-  background-color: orange;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+  background-color: #ff6b00;
+  padding: 12px;
+}
+
+.separator {
+  border: 1px solid black;
+  border-color: #dfe1e6;
+  margin-top: 116px;
+}
+
+.sm-two {
+  margin: 0;
+  padding: 23px 95px 21px 99px;
+  justify-content: center;
+}
+
+.separator-2 {
+  border: 5px solid #0d151e;
+  border-radius: 10px;
+  margin: 0 121px 8px 120px;
 }
