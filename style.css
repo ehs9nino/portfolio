@@ -394,3 +394,67 @@ p {
   list-style-type: none;
   text-decoration: none;
 }
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 917px;
+  width: 375px;
+}
+
+.form-section > h2 {
+  position: static;
+  width: 327px;
+  height: 216px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 131px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.input1 .input2 {
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+}
+
+.area {
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+}
+
+.submit {
+  position: static;
+  width: 107px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: orange;
+}
