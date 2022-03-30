@@ -184,7 +184,11 @@ p {
   color: #091e42;
 }
 
-.work1-button {
+.work1-btn {
+  list-style: none;
+}
+
+li > .work1-button {
   width: 125px;
   padding-top: 10px;
   background-color: #ff6b00;
@@ -199,7 +203,7 @@ p {
   border: none;
 }
 
-.work1-button :hover {
+.work1-btn :hover {
   background-color: #fff5e1;
   color: #ff6b00;
 }
@@ -329,11 +333,15 @@ p {
   text-align: left;
 }
 
+.about-me-btn {
+  list-style: none;
+}
+
 .about-me-button {
   padding-top: 12px;
   width: 161px;
   background-color: #ff6b00;
-  border-color: #ff6b00;
+  border: none;
   color: white;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -342,7 +350,7 @@ p {
   line-height: 24px;
 }
 
-.about-me-button :hover {
+.about-me-btn :hover {
   background-color: #fff5e1;
   color: #ff6b00;
 }
@@ -404,6 +412,7 @@ p {
 }
 
 .form-section > h2 {
+  flex: 1;
   margin: 120px 24px 73px 24px;
   position: static;
   height: 216px;
@@ -445,6 +454,7 @@ p {
 }
 
 .input1 > input {
+  flex: 1 1 auto;
   padding-right: 100px;
   border: none;
   width: 295px;
@@ -455,6 +465,7 @@ p {
 }
 
 .text-area {
+  flex: 1 1 auto;
   background-color: #fbf8f7;
   border: none;
   font-family: "Inter", sans-serif;
@@ -470,11 +481,12 @@ p {
 }
 
 .form-button {
-  text-align: left;
-  margin-left: 112px;
+  display: flex;
+  justify-content: center;
 }
 
 .submit {
+  flex-shrink: 1;
   border: none;
   font-family: "Inter", sans-serif;
   font-size: 17px;
