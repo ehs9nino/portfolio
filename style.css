@@ -188,7 +188,7 @@ p {
   list-style: none;
 }
 
-li > .work1-button {
+.work1-button {
   width: 125px;
   padding-top: 10px;
   background-color: #ff6b00;
