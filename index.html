@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,7 +12,6 @@
   <link rel="stylesheet" href="./style.css" />
   <title>Portfolio</title>
 </head>
-
 <body>
   <div class="container">
     <div class="main">
@@ -38,7 +36,8 @@
           <li><img src="./svg/Vector5.svg" alt="" /></li>
         </ul>
       </section>
-    </div>
+ 
+  </div>
     <section class="work-section">
       <div class="work-1">
         <div class="work1-visual">
@@ -60,7 +59,7 @@
             <li class="list1"><a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)">Bootstrap</a></li>
             <li class="list1"><a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby</a></li>
           </ul>
-          <button class="work1-button">See Project</button>
+          <div class="work1-btn"><input class="work1-button" value="See Project"></div>
         </div>
       </div>
       <div class="work-2">
@@ -153,7 +152,6 @@
         </div>
         <div class="work2-button"><input type="button" value="See Project"></div>
       </div>
-  </div>
   </section>
   <section class="about-me-section">
     <div class="about-me-1">
@@ -165,7 +163,7 @@
           you like what you see and have a project you need coded, don`t
           hestiate to contact me.
         </p>
-        <input type="button" class="about-me-button" value="Get my Resume">
+        <div class="about-me-btn"><input type="button" class="about-me-button" value="Get my Resume"></div>
       </div>
       <div class="about-me1-separation">
         <div class="line2"></div>
@@ -206,7 +204,40 @@
       </ul>
     </div>
   </section>
+  <div class="form-section">
+    <h2>
+      I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+    </h2>
+    <form class="from1" action="https://formspree.io/f/xdoblzqe" method="post">
+      <ul class="inputs">
+        <li class="input1">
+          <input name="user-name" class="name" type="text" placeholder="Full Name" maxlength="30" required>
+        </li>
+        <li class="separator1">
+          <div></div>
+        </li>
+        <li class="input1 email">
+          <input  name="user-email" class="e-mail" type="email" placeholder="Email address" required>
+        </li>
+        <li class="separator1">
+          <div></div>
+        </li>
+        <li class="input1 input2"><textarea class="text-area" placeholder="Enter text here" maxlength="500" required></textarea></li>
+        <li class="form-button">
+          <button class="submit" type="submit">Get In Touch</button>
+        </li>
+      </ul>
+    </form>
+    <div class="separator"></div>
+    <ul class="social-media sm-two">
+      <li><img src="./png/GitHub.png" alt="" /></li>
+      <li><img src="./png/Linkedin.png" alt="" /></li>
+      <li><img src="./png/Angelist.png" alt="" /></li>
+      <li><img src="./png/Twitter.png" alt="" /></li>
+      <li><img src="./png/Medium.png" alt="" /></li>
+    </ul>
+    <div class="separator-2"></div>
+  </div>
   </div>
 </body>
-
 </html>

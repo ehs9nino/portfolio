@@ -184,6 +184,10 @@ p {
   color: #091e42;
 }
 
+.work1-btn {
+  list-style: none;
+}
+
 .work1-button {
   width: 125px;
   padding-top: 10px;
@@ -196,9 +200,10 @@ p {
   letter-spacing: 0.03em;
   text-align: center;
   color: white;
+  border: none;
 }
 
-.work1-button :hover {
+.work1-btn :hover {
   background-color: #fff5e1;
   color: #ff6b00;
 }
@@ -328,11 +333,15 @@ p {
   text-align: left;
 }
 
+.about-me-btn {
+  list-style: none;
+}
+
 .about-me-button {
   padding-top: 12px;
   width: 161px;
   background-color: #ff6b00;
-  border-color: #ff6b00;
+  border: none;
   color: white;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -341,7 +350,7 @@ p {
   line-height: 24px;
 }
 
-.about-me-button :hover {
+.about-me-btn :hover {
   background-color: #fff5e1;
   color: #ff6b00;
 }
@@ -393,4 +402,123 @@ p {
   color: white;
   list-style-type: none;
   text-decoration: none;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+
+.form-section > h2 {
+  flex: 1;
+  margin: 120px 24px 73px 24px;
+  position: static;
+  height: 216px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style: none;
+}
+
+.input1 {
+  margin: 0 40px 0 40px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #979493;
+  display: flex;
+}
+
+.email {
+  margin-top: 25px;
+}
+
+.separator1 > div {
+  border: 1px solid #dbd8d7;
+  margin: 14px 24px 24px 24px;
+}
+
+.input1 > input {
+  flex: 1 1 auto;
+  padding-right: 100px;
+  border: none;
+  width: 295px;
+}
+
+.input2 {
+  margin: 0 24px 24px 24px;
+}
+
+.text-area {
+  flex: 1 1 auto;
+  background-color: #fbf8f7;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  padding: 12px;
+  width: 303px;
+  height: 90px;
+}
+
+.form-button {
+  display: flex;
+  justify-content: center;
+}
+
+.submit {
+  flex-shrink: 1;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+  background-color: #ff6b00;
+  padding: 12px;
+}
+
+.form-button :hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+}
+
+.separator {
+  border: 1px solid black;
+  border-color: #dfe1e6;
+  margin-top: 116px;
+}
+
+.sm-two {
+  margin: 0;
+  padding: 23px 95px 21px 99px;
+  justify-content: center;
+}
+
+.separator-2 {
+  border: 5px solid #0d151e;
+  border-radius: 10px;
+  margin: 0 121px 8px 120px;
 }
