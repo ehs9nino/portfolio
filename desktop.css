@@ -84,6 +84,11 @@
   margin-top: 36px;
 }
 
+.work1-button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .work-2 {
   background: none;
   width: 369px;
@@ -125,8 +130,7 @@
 }
 
 .work-y {
-  background-image: url(./svg/Placeholder-desktop14.svg);
-  background-color: linear-gradient (180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%),;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url(./svg/Placeholder-desktop14.svg);
 }
 
 /* About me */
