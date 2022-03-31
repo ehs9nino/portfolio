@@ -41,9 +41,16 @@
   background-image: url(./svg/header-desktop.svg);
   width: auto;
   background-repeat: no-repeat;
+  background-position: right;
 }
 
 /* work section */
+
+.work-1 {
+  margin-left: 153px;
+  margin-right: 153px;
+  margin-bottom: 130px;
+}
 
 .work1-visual {
   display: flex;
@@ -56,6 +63,7 @@
 }
 
 .work1-visual > .line {
+  flex: 1;
   width: 794px;
   margin: 0 24px 56px 24px;
   align-self: self-end;
@@ -64,6 +72,10 @@
 .work-display {
   display: grid;
   grid-template-columns: auto auto auto;
+}
+
+.work1-btn {
+  margin-top: 36px;
 }
 
 .work-2 {
@@ -113,22 +125,22 @@
 /* About me */
 
 .about-me-1 {
-  width: 100%;
-  background: none;
   display: grid;
+  background: none;
   grid-template-columns: auto auto;
   margin-left: 142px;
   margin-top: 130px;
   margin-bottom: 139px;
   margin-right: 0;
+  width: auto;
+  gap: 146px;
 }
 
 .about-me-background {
   background-image: url(./svg/illustration-about-me-desktop.svg);
-  height: 352px;
-  width: 672px;
-  margin: 100px -88px 140px;
+  width: 555px;
   background-repeat: no-repeat;
+  background-position: right;
 }
 
 /* About me 2 */
@@ -136,11 +148,24 @@
 .about-me-2 {
   display: grid;
   grid-template-columns: auto auto auto;
+  margin-top: 146px;
+  padding-bottom: 146px;
 }
 
 .form-grid {
   display: grid;
   grid-template-columns: auto auto;
+  gap: 24px;
+  margin-top: 130px;
+  margin-left: 151px;
+  margin-right: 151px;
+  text-align: left;
+}
+
+.form-grid > h2 {
+  margin: 0;
+  padding: 0;
+  height: auto;
 }
 
 .sm-two {
@@ -157,4 +182,31 @@
 .work1-content {
   display: grid;
   grid-template-columns: auto auto;
+}
+
+/* Menu */
+
+nav {
+  padding: 0;
+}
+
+.menu-bar {
+  display: flex;
+  margin: 27px 151px 27px 27px;
+  list-style-type: none;
+  gap: 32px;
+}
+
+.hamburger > img {
+  display: none;
+}
+
+.main-logo {
+  margin-left: 154px;
+  margin-top: 26px;
+  padding: 0;
+}
+
+.separator {
+  margin-bottom: 24px;
 }

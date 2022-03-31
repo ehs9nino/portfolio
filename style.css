@@ -29,7 +29,11 @@ header {
   justify-content: space-between;
 }
 
-.logo {
+.main-logo {
+  padding: 12px 12px 12px 24px;
+}
+
+.main-logo > .logo {
   align-self: flex-end;
   text-decoration: none;
   color: white;
@@ -39,7 +43,6 @@ header {
   font-weight: 700;
   line-height: 24px;
   text-align: center;
-  padding: 12px 12px 12px 24px;
 }
 
 nav {
@@ -107,7 +110,6 @@ p {
 .work-1 {
   display: flex;
   flex-direction: column;
-  
 }
 
 .work1-visual {
@@ -138,8 +140,13 @@ p {
   gap: 12px;
 }
 
+.work-placeholder > img {
+  width: 100%;
+}
+
 .content-data {
   width: 327px;
+  margin: auto;
 }
 
 .content-data > h3 {
@@ -527,4 +534,8 @@ p {
   border: 5px solid #0d151e;
   border-radius: 10px;
   margin: 0 121px 8px 120px;
+}
+
+.menu-bar {
+  display: none;
 }
