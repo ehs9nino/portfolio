@@ -1,3 +1,9 @@
+* ::after ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .main {
   background-image: none;
 }
@@ -102,4 +108,53 @@
 
 .work-y {
   background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url(./svg/Placeholder-desktop14.svg);
+}
+
+/* About me */
+
+.about-me-1 {
+  width: 100%;
+  background: none;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 142px;
+  margin-top: 130px;
+  margin-bottom: 139px;
+  margin-right: 0;
+}
+
+.about-me-background {
+  background-image: url(./svg/illustration-about-me-desktop.svg);
+  height: 352px;
+  width: 672px;
+  margin: 100px -88px 140px;
+  background-repeat: no-repeat;
+}
+
+/* About me 2 */
+
+.about-me-2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.sm-two {
+  flex-direction: row;
+  margin: 0;
+}
+
+.separator-2 {
+  display: none;
+}
+
+/* .work1 content */
+
+.work1-content {
+  display: grid;
+  grid-template-columns: auto auto;
 }

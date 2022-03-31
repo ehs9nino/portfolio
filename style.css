@@ -107,6 +107,7 @@ p {
 .work-1 {
   display: flex;
   flex-direction: column;
+  
 }
 
 .work1-visual {
@@ -135,6 +136,10 @@ p {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.content-data {
+  width: 327px;
 }
 
 .content-data > h3 {
@@ -356,8 +361,9 @@ p {
 }
 
 .line2 {
-  width: 327px;
   border: 1px solid white;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .about-me-2 {
@@ -411,7 +417,7 @@ p {
   text-align: center;
 }
 
-.form-section > h2 {
+.form-grid > h2 {
   flex: 1;
   margin: 120px 24px 73px 24px;
   position: static;
