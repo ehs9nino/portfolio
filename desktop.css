@@ -1,0 +1,56 @@
+.main {
+  background-image: none;
+}
+
+.main-section {
+  display: grid;
+  grid-template-areas: '1 ..';
+  grid-template-columns: auto auto 50%;
+  gap: 10px;
+}
+
+.details {
+  margin: 264px 0 251px 0;
+}
+
+.details > h1 {
+  margin-top: 0;
+}
+
+.social-media {
+  grid-area: 1;
+  flex-direction: column;
+  color: white;
+  display: flex;
+  gap: 22.3px;
+  align-self: center;
+  padding: 0;
+  margin-left: 36px;
+  margin-right: 89px;
+  margin-top: 351px;
+  margin-bottom: 341px;
+}
+
+.background-desktop {
+  background-image: url(./svg/header-desktop.svg);
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+/* work section */
+
+.work1-visual {
+  display: flex;
+  flex-direction: row;
+}
+
+.work1-visual > h1 {
+  width: 315px;
+  text-align: end;
+}
+
+.work1-visual > .line {
+  width: 794px;
+  margin: 0 24px 56px 24px;
+  align-self: self-end;
+}

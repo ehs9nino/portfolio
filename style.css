@@ -47,7 +47,7 @@ nav {
   padding: 12px 24px 12px 12px;
 }
 
-section {
+.main-section {
   display: flex;
   flex-direction: column;
   padding: 0 24px 0 24px;
@@ -137,7 +137,7 @@ p {
   gap: 12px;
 }
 
-.work1-content > h3 {
+.content-data > h3 {
   margin-top: 24px;
   font-family: "Crete Round", serif;
   font-size: 32px;
@@ -149,7 +149,7 @@ p {
   color: #091e42;
 }
 
-.work1-content > p {
+.content-data > p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -160,7 +160,7 @@ p {
   color: #091e42;
 }
 
-.work1-content > ul {
+.content-data > ul {
   display: flex;
   justify-content: space-between;
   gap: 12px;
