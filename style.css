@@ -58,6 +58,10 @@ nav {
   gap: 12px;
 }
 
+.details > p {
+  max-width: 566px;
+}
+
 h1 {
   color: #ff6b00;
   font-family: "Crete Round", serif;
@@ -314,7 +318,6 @@ p {
   flex-direction: column;
   justify-content: space-between;
   gap: 211px;
-  width: 327px;
   margin: auto;
 }
 
@@ -322,6 +325,8 @@ p {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  width: 327px;
+  align-self: center;
 }
 
 .about-me1-content > h1 {
@@ -445,6 +450,10 @@ p {
   list-style: none;
 }
 
+.inputa {
+  padding: 0;
+}
+
 .input1 {
   margin: 0 40px 0 40px;
   font-family: "Inter", sans-serif;
@@ -455,13 +464,15 @@ p {
   letter-spacing: 0;
   color: #979493;
   display: flex;
+  flex-direction: column;
 }
 
 .email {
   margin-top: 25px;
 }
 
-.separator1 > div {
+.separator1 {
+  width: auto;
   border: 1px solid #dbd8d7;
   margin: 14px 24px 24px 24px;
 }
@@ -470,7 +481,7 @@ p {
   flex: 1 1 auto;
   padding-right: 100px;
   border: none;
-  width: 295px;
+  margin-left: 36px;
 }
 
 .input2 {
@@ -489,8 +500,8 @@ p {
   letter-spacing: 0;
   text-align: left;
   padding: 12px;
-  width: 303px;
   height: 90px;
+  margin: 36px;
 }
 
 .form-button {
