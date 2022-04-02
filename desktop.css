@@ -108,6 +108,13 @@ body {
   grid-template-columns: auto auto auto;
 }
 
+@media only screen and (max-width: 1170px) {
+  .work-display {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
 .work1-btn {
   margin-top: 36px;
 }

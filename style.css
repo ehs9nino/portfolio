@@ -217,6 +217,8 @@ p {
   text-align: center;
   color: white;
   border: none;
+  margin-top: 15px;
+  height: 40px;
 }
 
 .work1-btn :hover {
