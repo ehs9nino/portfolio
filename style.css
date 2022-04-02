@@ -58,10 +58,6 @@ nav {
   gap: 12px;
 }
 
-.details > p {
-  max-width: 566px;
-}
-
 h1 {
   color: #ff6b00;
   font-family: "Crete Round", serif;
@@ -94,6 +90,10 @@ p {
   letter-spacing: 0;
   text-align: left;
   color: white;
+}
+
+.details > p {
+  max-width: 566px;
 }
 
 .social-media {
