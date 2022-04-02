@@ -29,7 +29,11 @@ header {
   justify-content: space-between;
 }
 
-.logo {
+.main-logo {
+  padding: 12px 12px 12px 24px;
+}
+
+.main-logo > .logo {
   align-self: flex-end;
   text-decoration: none;
   color: white;
@@ -39,7 +43,6 @@ header {
   font-weight: 700;
   line-height: 24px;
   text-align: center;
-  padding: 12px 12px 12px 24px;
 }
 
 nav {
@@ -47,7 +50,7 @@ nav {
   padding: 12px 24px 12px 12px;
 }
 
-section {
+.main-section {
   display: flex;
   flex-direction: column;
   padding: 0 24px 0 24px;
@@ -87,6 +90,10 @@ p {
   letter-spacing: 0;
   text-align: left;
   color: white;
+}
+
+.details > p {
+  max-width: 566px;
 }
 
 .social-media {
@@ -137,7 +144,16 @@ p {
   gap: 12px;
 }
 
-.work1-content > h3 {
+.work-placeholder > img {
+  width: 100%;
+}
+
+.content-data {
+  width: 327px;
+  margin: auto;
+}
+
+.content-data > h3 {
   margin-top: 24px;
   font-family: "Crete Round", serif;
   font-size: 32px;
@@ -149,7 +165,7 @@ p {
   color: #091e42;
 }
 
-.work1-content > p {
+.content-data > p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -160,7 +176,7 @@ p {
   color: #091e42;
 }
 
-.work1-content > ul {
+.content-data > ul {
   display: flex;
   justify-content: space-between;
   gap: 12px;
@@ -201,6 +217,8 @@ p {
   text-align: center;
   color: white;
   border: none;
+  margin-top: 15px;
+  height: 40px;
 }
 
 .work1-btn :hover {
@@ -302,7 +320,6 @@ p {
   flex-direction: column;
   justify-content: space-between;
   gap: 211px;
-  width: 327px;
   margin: auto;
 }
 
@@ -310,6 +327,8 @@ p {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  width: 327px;
+  align-self: center;
 }
 
 .about-me1-content > h1 {
@@ -356,8 +375,9 @@ p {
 }
 
 .line2 {
-  width: 327px;
   border: 1px solid white;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .about-me-2 {
@@ -411,7 +431,7 @@ p {
   text-align: center;
 }
 
-.form-section > h2 {
+.form-grid > h2 {
   flex: 1;
   margin: 120px 24px 73px 24px;
   position: static;
@@ -432,6 +452,10 @@ p {
   list-style: none;
 }
 
+.inputa {
+  padding: 0;
+}
+
 .input1 {
   margin: 0 40px 0 40px;
   font-family: "Inter", sans-serif;
@@ -442,13 +466,15 @@ p {
   letter-spacing: 0;
   color: #979493;
   display: flex;
+  flex-direction: column;
 }
 
 .email {
   margin-top: 25px;
 }
 
-.separator1 > div {
+.separator1 {
+  width: auto;
   border: 1px solid #dbd8d7;
   margin: 14px 24px 24px 24px;
 }
@@ -457,7 +483,7 @@ p {
   flex: 1 1 auto;
   padding-right: 100px;
   border: none;
-  width: 295px;
+  margin-left: 36px;
 }
 
 .input2 {
@@ -476,8 +502,8 @@ p {
   letter-spacing: 0;
   text-align: left;
   padding: 12px;
-  width: 303px;
   height: 90px;
+  margin: 36px;
 }
 
 .form-button {
@@ -521,4 +547,8 @@ p {
   border: 5px solid #0d151e;
   border-radius: 10px;
   margin: 0 121px 8px 120px;
+}
+
+.menu-bar {
+  display: none;
 }
