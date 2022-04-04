@@ -79,6 +79,14 @@ body {
   margin-bottom: 130px;
 }
 
+.work-placeholder {
+  transition: transform 2s;
+}
+
+.work-placeholder:hover {
+  transform: scale(1.05);
+}
+
 .work1-visual {
   display: flex;
   flex-direction: row;

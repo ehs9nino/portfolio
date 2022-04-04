@@ -443,6 +443,11 @@ p {
   line-height: 44px;
   text-align: center;
   color: #172b4d;
+  transition: transform 2s;
+}
+
+.form-grid > h2:hover {
+  transform: translate(10%);
 }
 
 .inputs {
