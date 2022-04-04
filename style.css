@@ -226,7 +226,7 @@ p {
   color: #ff6b00;
 }
 
-.work-display{
+.work-display {
   display: flex;
   flex-direction: column;
   gap: 24px;

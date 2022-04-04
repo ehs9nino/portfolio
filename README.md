@@ -21,7 +21,7 @@
 
 ## Live Demo
 
-:fire https://ehs9nino.github.io/portfolio/ :fire
+:fire: https://ehs9nino.github.io/portfolio/ :fire:
 
 
 ## Show your support
