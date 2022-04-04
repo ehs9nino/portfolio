@@ -8,7 +8,7 @@
 ## Built With
 
 - HTML & CSS
-- Linters, Flexboxes
+- Linters, Flexboxes, Grids 
 - VS Code
 
 ## Authors
@@ -18,6 +18,10 @@
 - GitHub: [@githubhandle](https://github.com/ehs9nino)
 - Twitter: [@twitterhandle](https://twitter.com/ehsan9nino)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ehsan-qader-a230a6165/)
+
+## Live Demo
+
+:fire: https://ehs9nino.github.io/portfolio/ :fire:
 
 
 ## Show your support

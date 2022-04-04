@@ -148,6 +148,10 @@ body {
   display: none;
 }
 
+.work2-content > h2 {
+  display: block;
+}
+
 .work2-content {
   margin: 221px 16px 16px 16px;
 }

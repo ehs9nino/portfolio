@@ -226,6 +226,12 @@ p {
   color: #ff6b00;
 }
 
+.work-display {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .work-2 {
   width: 327px;
   margin: auto;
@@ -250,6 +256,10 @@ p {
   letter-spacing: 0;
   text-align: left;
   color: white;
+}
+
+.work2-content > h2 {
+  display: none;
 }
 
 .work2-content > p {
