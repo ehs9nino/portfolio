@@ -270,7 +270,9 @@ p {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-}
+  max-width: 100%;
+  max-height: 100%;
+  }
 
 .work2-content ul {
   display: flex;
@@ -360,6 +362,8 @@ p {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .about-me-btn {
@@ -380,7 +384,7 @@ p {
 }
 
 .about-me-btn :hover {
-  background-color:#575757;
+  background-color: #575757;
   color: #ff6b00;
 }
 
@@ -421,6 +425,8 @@ p {
   font-size: 32px;
   line-height: 44px;
   color: white;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .about-me-2 ul li > a {
@@ -542,7 +548,7 @@ p {
 }
 
 .form-button :hover {
-  background-color:#575757;
+  background-color: #575757;
   color: #ff6b00;
 }
 
