@@ -573,3 +573,7 @@ p {
 .menu-bar {
   display: none;
 }
+
+.fa-bars {
+  color: #fff;
+}

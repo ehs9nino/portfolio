@@ -11,6 +11,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="./style.css" />
   <link rel="stylesheet" media="screen and (min-width: 1024px)" href="./desktop.css" />
+  <script src="https://kit.fontawesome.com/7967e81f77.js" crossorigin="anonymous"></script>
   <title> My Portfolio</title>
 </head>
 <body>
@@ -20,15 +21,18 @@
         <div class="main-logo"><a class="logo" href="./index.html"> John Doe</a>
         </div>
         <nav>
-          <ul class="menu-bar">
-            <li class="menu-items">Portfolio</li>
-            <li class="menu-items">About</li>
-            <li class="menu-items">Contact</li>
+          <ul class="menu-bar" id="menu-bar">
+            <li class="menu-items">
+             <a href="#portfolio">Portfolio</a></li>
+            <li class="menu-items">
+              <a href="#about">About</a></li>
+            <li class="menu-items">
+              <a href="#contact">Contact</a></li>
             <li><img src="./png/nav-icon.png" alt="Multi-Post Stories"></li>
           </ul>
-          <div class="hamburger">
-            <img src="./svg/menu.svg" alt="Menu" />
-          </div>
+          <a href="javascript:void(0);" onclick="mobileMenuFunction()">
+            <i class="fa-solid fa-bars"></i>
+          </a>
         </nav>
       </header>
       <section class="main-section">
@@ -56,7 +60,7 @@
       </section>
  
   </div>
-  <section class="work-section">
+  <section class="work-section" id="portfolio">
     <div class="work-1">
       <div class="work1-visual">
         <h1>My Recent Works</h1>
@@ -184,7 +188,7 @@
       </div>
     </div>
 </section>
-  <section class="about-me-section">
+  <section class="about-me-section" id="about">
     <div class="about-me-1">
       <div class="about-me1-content">
         <h1>About me</h1>
@@ -242,7 +246,7 @@
        </div>
     </div>
   </section>
-  <div class="form-section">
+  <div class="form-section" id="contact">
     <div class="form-grid">
       <h2>
         I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
