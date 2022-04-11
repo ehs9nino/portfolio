@@ -306,7 +306,7 @@ nav {
   text-align: center;
 }
 
-.hamburger > img {
+.hamburger {
   display: none;
 }
 
