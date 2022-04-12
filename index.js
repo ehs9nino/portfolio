@@ -2,6 +2,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
   document.querySelector('.hamburger > img').addEventListener('click', displayContent);
   document.querySelector('.close').addEventListener('click', closeMenu);
   document.querySelector('.portfolio').addEventListener('click', portfolioSection);
+  document.querySelector('.about').addEventListener('click', aboutSection);
 });
 function displayContent() {
   document.querySelector('.container').style.display = 'none';
@@ -14,4 +15,8 @@ function closeMenu() {
 function portfolioSection() {
   closeMenu();
   window.location = window.location.pathname + '#portfolio';
+}
+function aboutSection() {
+  closeMenu();
+  window.location = window.location.pathname + '#about';
 }
