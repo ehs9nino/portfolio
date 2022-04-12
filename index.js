@@ -3,6 +3,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
   document.querySelector('.close').addEventListener('click', closeMenu);
   document.querySelector('.portfolio').addEventListener('click', portfolioSection);
   document.querySelector('.about').addEventListener('click', aboutSection);
+  document.querySelector('.contact').addEventListener('click', contactSection);
 });
 function displayContent() {
   document.querySelector('.container').style.display = 'none';
@@ -19,4 +20,8 @@ function portfolioSection() {
 function aboutSection() {
   closeMenu();
   window.location = window.location.pathname + '#about';
+}
+function contactSection() {
+  closeMenu();
+  window.location = window.location.pathname + '#contact';
 }
