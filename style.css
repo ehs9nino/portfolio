@@ -585,6 +585,7 @@ p {
 
 .mobile-menu-ul {
   list-style-type: none;
+  padding: 0;
 }
 
 .mobile-menu-li-1 {
