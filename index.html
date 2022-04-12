@@ -26,12 +26,12 @@
             <li class="menu-items">Contact</li>
             <li><img src="./png/nav-icon.png" alt="Multi-Post Stories"></li>
           </ul>
-          <div class="hamburger">
+          <div class="hamburger" onclick="displayContent()">
             <img src="./svg/menu.svg" alt="Menu" />
           </div>
         </nav>
       </header>
-      <section class="main-section">
+      <section class="main-section" >
         <div class="background-adjust">
           <div class="details">
             <h1>Hey There. I`m Ehsan</h1>
@@ -242,7 +242,8 @@
        </div>
     </div>
   </section>
-  <div class="form-section">
+  <div class="form-section" >
+    <a href="#form"></a>
     <div class="form-grid">
       <h2>
         I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
@@ -281,5 +282,25 @@
     <div class="separator-2"></div>
   </div>
   </div>
+  <section class="mobile-menu">
+    <div class="mobile-menu-div">
+      <div class="close" onclick="closeMenu()">
+        <img src="./png/hamburger-close.png" alt="Menu" />
+      </div>
+      <ul class="mobile-menu-ul">
+        <li class="mobile-menu-li-1 portfolio" onclick="portfolioSection()" href="#portfolio">Portfolio</li>
+        <li class="mobile-menu-li-2"></li>
+        <li class="mobile-menu-li-1 About">About</li>
+        <li class="mobile-menu-li-2"></li>
+        <li class="mobile-menu-li-1 Contact" onclick="selectOption3()">Contact</li>
+        <li class="mobile-menu-li-2"></li>
+      </ul>
+    </div>
+    <div class="bottom-menu">
+      <div class="separator-menu"></div>
+    </div>
+  </section>
+  <script src="index.js">
+  </script>
 </body>
 </html>
