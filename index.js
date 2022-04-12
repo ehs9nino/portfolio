@@ -1,16 +1,17 @@
+window.addEventListener('DOMContentLoaded', ()=>{
+  document.querySelector('.hamburger > img').addEventListener('click', displayContent);
+  document.querySelector('.close').addEventListener('click', closeMenu);
+  document.querySelector('.portfolio').addEventListener('click', portfolioSection);
+});
 function displayContent() {
   document.querySelector('.container').style.display = 'none';
   document.querySelector('.mobile-menu').style.display = 'block';
 }
-document.querySelector('.hamburger > img').getaddEventListener('click', displayContent);
-
 function closeMenu() {
   document.querySelector('.container').style.display = 'block';
   document.querySelector('.mobile-menu').style.display = 'none';
 }
-document.querySelector('.close').getaddEventListener('click', closeMenu);
-
 function portfolioSection() {
-  document.querySelector('.portfolio').location.asign = 'https://dashboard.microverse.org/progress';
+  closeMenu();
+  window.location = window.location.pathname + '#portfolio';
 }
-document.querySelector('.portfolio').getaddEventListener('click', portfolioSection());
