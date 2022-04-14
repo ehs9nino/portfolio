@@ -114,7 +114,6 @@ p {
 }
 
 .work-section {
-  position: relative;
   display: grid;
   grid-template-columns: 100%;
 }
@@ -240,7 +239,6 @@ p {
 }
 
 .work-display {
-  position: relative;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -642,8 +640,10 @@ p {
 /* Mobile Popup */
 
 .popUp {
-  position: absolute;
+  position: fixed;
+  top: 0;
   background-color: white;
+  padding: 24px;
 }
 
 .mobile-pop-up {
@@ -732,7 +732,7 @@ p {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  padding: 12px;
+  padding: 20px 12px 12px 12px;
 }
 
 .pop-up-btn2 {
@@ -748,13 +748,18 @@ p {
 }
 
 .pop-up-btn1::after {
-  content: url(images/seeliveicon.svg);
+  content: url(./png/Icon-seelive.png);
   padding-left: 15px;
   display: inline-block;
 }
 
 .pop-up-btn2::after {
-  content: url(images/githubicone2.svg);
+  content: url(./png/IconGitHub.png);
   padding-left: 15px;
   display: inline-block;
+}
+
+.A {
+  display: flex;
+  justify-content: center;
 }
