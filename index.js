@@ -97,3 +97,34 @@ function hide(toHide) {
   toHide.classList.remove('show');
   toHide.classList.add('hide');
 }
+// dynamic content
+projects.forEach((card, index) => {
+  const workCard = addElement('div', ['work-2'], workContainer);
+  const workContent = addElement('div', ['work2-content'], workCard);
+  const workHeading1 = addElement('h1', [], workContent);
+  workHeading1.textContent = card.name;
+  const workHeading2 = addElement('h2', [], workContent);
+  workHeading2.textContent = card.name;
+  const workParagraph1 = addElement('p', [], workContent);
+  workParagraph1.textContent = card.discription;
+  const listUrl = addElement('ul', [], workContent);
+  const listItem1 = addElement('li', ['list2'], listUrl);
+  listItem1.textContent = 'html';
+  const listItem2 = addElement('li', ['list2'], listUrl);
+  listItem2.textContent = 'bootstrap';
+  const listItem3 = addElement('li', ['list2'], listUrl);
+  listItem3.textContent = 'ruby on rails';
+  const buttonWork = addElement('div', ['work2-button'], workCard);
+  const buttonWork1 = addElement('button', [], buttonWork);
+  buttonWork1.setAttribute('type', 'button');
+  buttonWork1.textContent = 'See Project';
+
+  buttonWork1.onclick = () => showWorkPopup(index);
+});
+
+// ==== Work popup
+const seeProjectButtons = document.querySelectorAll('.work-show-button');
+
+seeProjectButtons.forEach((button, index) => {
+  button.onclick = () => showWorkPopup(index);
+});
