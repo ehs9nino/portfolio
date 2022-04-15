@@ -228,7 +228,6 @@ p {
   letter-spacing: 0.03em;
   text-align: center;
   color: white;
-  border: none;
   margin-top: 15px;
   height: 40px;
 }
@@ -236,6 +235,11 @@ p {
 .work1-btn :hover {
   background-color: #575757;
   color: #ff6b00;
+}
+
+.work1-button > a {
+  text-decoration: none;
+  color: white;
 }
 
 .work-display {
@@ -744,7 +748,8 @@ p {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  padding: 12px;
+  padding: 0 9px 0 9px;
+  height: 100%;
 }
 
 .pop-up-btn1::after {
@@ -762,4 +767,12 @@ p {
 .A {
   display: flex;
   justify-content: center;
+}
+
+.pop-up-button1 {
+  list-style-type: none;
+}
+
+.pop-up-button2 {
+  list-style-type: none;
 }

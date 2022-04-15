@@ -129,12 +129,14 @@ const showWorkPopup = (index) => {
     desktop2Para.textContent = projects[index].discriptionDesktop;
   }
   const desktop2Buttons = addElement('ul', ['pop-up-buttons'], desktop2popup);
-  const desktop2Button1 = addElement('li', ['pop-up-btn1'], desktop2Buttons);
-  desktop2Button1.setAttribute('type', 'button');
-  desktop2Button1.textContent = 'See Live';
-  const desktop2Button2 = addElement('li', ['pop-up-btn2'], desktop2Buttons);
-  desktop2Button2.setAttribute('type', 'button');
-  desktop2Button2.textContent = 'See Source';
+  const desktop2Button1 = addElement('li', ['pop-up-button1'], desktop2Buttons);
+  const desktop2Btn1 = addElement('button', ['pop-up-btn1'], desktop2Button1);
+  desktop2Btn1.setAttribute('type', 'button');
+  desktop2Btn1.textContent = 'See Live';
+  const desktop2Button2 = addElement('li', ['pop-up-button2'], desktop2Buttons);
+  const desktop2Btn2 = addElement('button', ['pop-up-btn2'], desktop2Button2);
+  desktop2Btn2.setAttribute('type', 'button');
+  desktop2Btn2.textContent = 'See Source';
   // Add close function
   closePopup.addEventListener('click', () => {
     hide(sectionPopup);
