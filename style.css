@@ -237,11 +237,6 @@ p {
   color: #ff6b00;
 }
 
-.work1-button > a {
-  text-decoration: none;
-  color: white;
-}
-
 .work-display {
   display: flex;
   flex-direction: column;
