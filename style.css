@@ -108,6 +108,11 @@ p {
   list-style-type: none;
 }
 
+.work {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
 .work-section {
   display: grid;
   grid-template-columns: 100%;
@@ -186,6 +191,11 @@ p {
   padding-inline-start: inherit;
 }
 
+.list2 {
+  border: 1px solid white;
+  padding: 12px;
+}
+
 .list1 > a {
   text-decoration: none;
   padding: 12px;
@@ -218,7 +228,6 @@ p {
   letter-spacing: 0.03em;
   text-align: center;
   color: white;
-  border: none;
   margin-top: 15px;
   height: 40px;
 }
@@ -299,7 +308,7 @@ p {
   background-color: #ffffff3d;
 }
 
-.work2-button input {
+.work2-button button {
   width: 327px;
   height: 50px;
   color: white;
@@ -625,4 +634,140 @@ p {
 
 .input1 > label {
   display: none;
+}
+
+/* Mobile Popup */
+
+.popUp {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  padding: 24px;
+}
+
+.mobile-pop-up {
+  padding: 16px 16px 20px 16px;
+  border: 2px solid black;
+  margin: 60px 16px 211px 16px;
+  background-color: white;
+  max-width: 1156px;
+}
+
+.pop-up-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-right: 16px;
+  height: 82px;
+}
+
+.pop-up-h1 {
+  width: 259px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 0;
+}
+
+.close-icon-2 {
+  margin-right: 14px;
+  width: 24px;
+  height: 24px;
+  margin-top: 5px;
+}
+
+.pop-up-languages {
+  list-style-type: none;
+  display: flex;
+  gap: 12px;
+  padding-left: 0;
+}
+
+.pop-up-language-li {
+  border: 1px solid #979493;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c3a39;
+  padding: 12px;
+}
+
+.pop-up-image {
+  width: 100%;
+  margin: 24px auto;
+}
+
+.pop-up-description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.pop-up-buttons {
+  display: flex;
+  margin-top: 12px;
+  max-width: 311px;
+  justify-content: left;
+  gap: 19px;
+  width: 100%;
+  padding: 0;
+}
+
+.pop-up-btn1 {
+  width: 134px;
+  background-color: #c25100;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 20px 12px 12px 12px;
+}
+
+.pop-up-btn2 {
+  width: 159px;
+  background-color: #c25100;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 0 9px 0 9px;
+  height: 100%;
+}
+
+.pop-up-btn1::after {
+  content: url(./png/Icon-seelive.png);
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.pop-up-btn2::after {
+  content: url(./png/IconGitHub.png);
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.A {
+  display: flex;
+  justify-content: center;
+}
+
+.pop-up-button1 {
+  list-style-type: none;
+}
+
+.pop-up-button2 {
+  list-style-type: none;
 }
