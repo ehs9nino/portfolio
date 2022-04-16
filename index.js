@@ -183,6 +183,10 @@ seeProjectButtons.forEach((button, index) => {
 const emailForm = document.querySelector('#e-mail');
 const popUpForm = document.querySelector('.form-popup');
 const submit = document.querySelector('.submit');
+const form = document.querySelector('.form1');
+const nameform = document.querySelector('#name');
+const storageForm = { name: '', email: '', message: '' };
+const msgForm = document.querySelector('.text-area');
 
 emailForm.addEventListener('input', () => {
   if (/[A-Z]/.test(emailForm.value)) {
@@ -197,3 +201,52 @@ submit.addEventListener('click', (event) => {
     event.preventDefault();
   }
 }, false);
+
+// Form local storage availability checking
+
+function isStorageAvailable(type) {
+  let storage;
+  try {
+    storage = window[type];
+    const x = '__storage_test__';
+    storage.setItem(x, x);
+    storage.removeItem(x);
+    return true;
+  } catch (e) {
+    return e instanceof DOMException && (
+      // 1) everything except Firefox
+      // 2) Firefox
+      // test name field too, because code might not be present
+      // 3) everything except Firefox
+      // 4) Firefox
+      // 5) acknowledge QuotaExceededError only if there's something already stored
+      e.code === 22 || e.code === 1014 || e.name === 'QuotaExceededError' || e.name === 'NS_ERROR_DOM_QUOTA_REACHED') && (storage && storage.length !== 0);
+  }
+}
+// Form local storage:
+// When the user changes the content of any input field, the data is saved to the local storage
+form.addEventListener('input', () => {
+  // Check if there is local storage
+  if (isStorageAvailable('localStorage')) {
+    // Update the storage values
+    storageForm.name = nameform.value;
+    storageForm.email = emailForm.value;
+    storageForm.message = msgForm.value;
+
+    // Store them to the localStorage
+    localStorage.setItem('formValues', JSON.stringify(storageForm));
+  }
+});
+
+// Form auto-fill:
+// When the user loads the page, if there is any data in the local storage
+// the input fields are pre-filled with this data
+if (localStorage.getItem('formValues') !== undefined) {
+  // Parse the data
+  const formData = JSON.parse(localStorage.getItem('formValues'));
+
+  // Populate the form with the data
+  nameform.value = formData.name;
+  emailForm.value = formData.email;
+  msgForm.value = formData.message;
+}
