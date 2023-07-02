@@ -106,6 +106,13 @@ p {
 
 .social-media > li {
   list-style-type: none;
+  max-width: 24px;
+  max-height: 24px;
+}
+
+.social-media > li img {
+  max-width: 24px;
+  max-height: 24px;
 }
 
 .work {
@@ -151,12 +158,17 @@ p {
   gap: 12px;
 }
 
+.work-placeholder {
+  margin: 10px;
+}
+
 .work-placeholder > img {
+  border: 5px solid #c25100;
   width: 100%;
 }
 
 .content-data {
-  width: 327px;
+  width: auto;
   margin: auto;
 }
 
@@ -189,6 +201,7 @@ p {
   gap: 12px;
   list-style: none;
   padding-inline-start: inherit;
+  max-width: 327px;
 }
 
 .list2 {
@@ -202,7 +215,6 @@ p {
   text-align-last: center;
   border: 1px solid black;
   height: 40px;
-  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -232,6 +244,11 @@ p {
   height: 40px;
 }
 
+.work1-button > a {
+  color: white;
+  text-decoration: none;
+}
+
 .work1-btn :hover {
   background-color: #575757;
   color: #ff6b00;
@@ -247,7 +264,6 @@ p {
   width: 327px;
   margin: auto;
   margin-top: 24px;
-  background: url(./svg/ImgPlaceholder1.svg);
   background-color: #1c1a19;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -350,7 +366,9 @@ p {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  width: 327px;
+  width: auto;
+  margin-left: 24px;
+  margin-right: 24px;
   align-self: center;
 }
 
@@ -381,8 +399,9 @@ p {
   list-style: none;
 }
 
-.about-me-button {
-  padding-top: 12px;
+.about-me-btn > .about-me-button {
+  padding: 12px;
+  text-decoration: none;
   width: 161px;
   background-color: #ff6b00;
   border: none;
@@ -479,8 +498,10 @@ p {
 
 .inputs {
   display: flex;
+  border: 5px solid #c25100;
   flex-direction: column;
-  padding: 0;
+  margin: 10px;
+  padding: 40px;
   list-style: none;
 }
 
