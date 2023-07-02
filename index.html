@@ -17,14 +17,14 @@
   <div class="container">
     <div class="main">
       <header>
-        <div class="main-logo"><a class="logo" href="./index.html"> John Doe</a>
+        <div class="main-logo"><a class="logo" href="./index.html"> Ehsan Qader</a>
         </div>
         <nav>
           <ul class="menu-bar">
-            <li class="menu-items">Portfolio</li>
-            <li class="menu-items">About</li>
-            <li class="menu-items">Contact</li>
-            <li><img src="./png/nav-icon.png" alt="Multi-Post Stories"></li>
+            <li class="menu-items"><a href="#work-section">Portfolio</a></li>
+            <li class="menu-items"><a href="#about">About</a></li>
+            <li class="menu-items"><a href="#contact">Contact</a></li>
+            <li onclick="openGmail()"><img src="./png/nav-icon.png" alt="Multi-Post Stories"></li>
           </ul>
           <div class="hamburger" onclick="displayContent()">
             <img src="./svg/menu.svg" alt="Menu" />
@@ -44,11 +44,11 @@
           </div>
           
           <ul class="social-media">
-            <li><img src="./svg/github.svg" alt="github"/></li>
-            <li><img src="./svg/linkedin.svg" alt="linkedin"/></li>
-            <li><img src="./svg/Vector3.svg" alt="angelist"/></li>
-            <li><img src="./svg/twitter.svg" alt="twitter"/></li>
-            <li><img src="./svg/Vector5.svg" alt="medium"/></li>
+            <li><a href="https://github.com/ehs9nino"><img src="./svg/github.svg" alt="github"/></a></li>
+            <li><a href="https://www.linkedin.com/in/ehsan-qader-a230a6165/"><img src="./svg/linkedin.svg" alt="linkedin"/></a></li>
+            <li><a href="https://twitter.com/ehsan9nino"><img src="./svg/twitter.svg" alt="twitter"/></a></li>
+            <li><a href="https://www.facebook.com/eqadir3/"><img src="./png/fb.png" alt="Facebook"/></a></li>
+            <li><a href="https://vk.com/id693453086"><img src="./svg/icon-vk.svg" alt="VK"/></a></li>
           </ul>
         </div>
         <div class="background-desktop">
@@ -56,7 +56,7 @@
       </section>
  
   </div>
-  <section class="work">
+  <section class="work" id="work-section">
     <a href="#work"></a>
 
     <div class="work-1">
@@ -65,24 +65,21 @@
         <div class="line"></div>
       </div>
       <div class="work1-content">
-        <div class="work-placeholder"><img src="./svg/ImgPlaceholder.svg" alt="" />
+        <div class="work-placeholder"><img src="./png/imgPlaceholder1.png" alt="" />
         </div>
         <div class="work-data">
           <div class="content-data">
-            <h1>Multi-Post Stories</h1>
+            <h1>Informational Website</h1>
             <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
+              General informational website for American Logistics Company which was completly solo project done from getting domain, design, theme, hosting.It's a perfect start to work with new startup's & making there business reach on internet.
             </p>
             <ul>
-              <li class="list1"><a href="https://en.wikipedia.org/wiki/CSS">Css</a></li>
-              <li class="list1"><a href="https://en.wikipedia.org/wiki/HTML">Html</a></li>
-              <li class="list1"><a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)">Bootstrap</a></li>
-              <li class="list1"><a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby</a></li>
+              <li class="list1"><a href="https://www.elegantthemes.com/">Divi</a></li>
+              <li class="list1"><a href="https://wordpress.com/">WordPress</a></li>
+              <li class="list1"><a href="https://workspace.google.com/">G Suite</a></li>
+              <li class="list1"><a href="https://formspree.io/">Froms</a></li>
             </ul>
-            <div class="work1-btn"><button type="button" class="work1-button">See Project</button></div>
+            <div class="work1-btn"><button type="button" class="work1-button"><a href="https://fnfglobalinc.com/">See Project</a></button></div>
           </div>
         </div>
       </div>
@@ -101,7 +98,7 @@
           you like what you see and have a project you need coded, don`t
           hestiate to contact me.
         </p>
-        <div class="about-me-btn"><input type="button" class="about-me-button" value="Get my Resume"></div>
+        <div class="about-me-btn"><input type="button" class="about-me-button" value="Get my Resume" onclick=goToWorkSection()></div>
       </div>
       <div class="about-me-background"></div>
     </div>

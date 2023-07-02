@@ -31,52 +31,46 @@ window.addEventListener('DOMContentLoaded', () => {
 
 const projects = [{
   // First Project
-  name: 'Profesional Art Printing Data',
-  discription: 'First A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard',
-  discriptionDesktop: 'Firsst Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-  languages: ['html', 'bootstrap', 'Ruby'],
-  reference: ['https://en.wikipedia.org/wiki/HTML', 'https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework', 'https://en.wikipedia.org/wiki/Ruby_(programming_language'],
+  name: 'Space Tourism Conference',
+  discription: 'With required design I have completed this website with basic front end skills.Additionally it has About US page attached with this landing page website.',
+  discriptionDesktop: 'With required design I have completed this website with basic front end skills.Additionally it has About US page attached with this landing page website.',
+  languages: ['HTML', 'CSS', 'JavaScript'],
 },
 {
   // second Project
-  name: 'Data Dashboard Healthcare',
-  discription: 'Second A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard',
-  discriptionDesktop: 'Second Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-  languages: ['html', 'bootstrap', 'Ruby'],
-  reference: ['https://en.wikipedia.org/wiki/HTML', 'https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework', 'https://en.wikipedia.org/wiki/Ruby_(programming_language'],
+  name: 'Vacation Destination',
+  discription: 'You can make a list of your favourite destination, It is just a simple learning project to get familiar with windows object and event listners in javaScript',
+  discriptionDesktop: 'You can make a list of your favourite destination, It is just a simple learning project to get familiar with windows object and event listners in javaScript',
+  languages: ['HTML', 'CSS', 'JavaScript'],
 },
 {
   // Third Project
-  name: 'Website Protfolio',
-  discription: 'Third A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard',
-  discriptionDesktop: 'Third Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-  languages: ['html', 'bootstrap', 'Ruby'],
-  reference: ['https://en.wikipedia.org/wiki/HTML', 'https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework', 'https://en.wikipedia.org/wiki/Ruby_(programming_language'],
+  name: 'Distance Converter',
+  discription: 'Tried both with JavaScript & JQuery Library to understand how build in libraries work for JavaScript.',
+  discriptionDesktop: 'Implemented with JavaScript & JQuery Library for understanding libraries of JS. The projects converts dictance miles to km`s and vice versa.',
+  languages: ['HTML', 'CSS', 'JQuery'],
 
 },
 {
   // Fourth Project
-  name: 'Profesional Art Printing Data',
-  discription: 'Fourth A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard',
-  discriptionDesktop: 'Fourth Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-  languages: ['html', 'bootstrap', 'Ruby'],
-  reference: ['https://en.wikipedia.org/wiki/HTML', 'https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework', 'https://en.wikipedia.org/wiki/Ruby_(programming_language'],
+  name: 'Awesome Books Collection',
+  discription: 'Made single page Application, here you can save you favourite books and maintain you library, I made sure once saved the date.',
+  discriptionDesktop: 'Made single page Application, here you can save you favourite books and maintain you library, I made sure once saved the date.',
+  languages: ['HTML', 'CSS', 'JavaScript'],
 },
 {
   // Fifth Project
-  name: 'Fifth Dashboard Healthcare',
-  discription: 'Fifth A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard',
-  discriptionDesktop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-  languages: ['html', 'bootstrap', 'Ruby'],
-  reference: ['https://en.wikipedia.org/wiki/HTML', 'https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework', 'https://en.wikipedia.org/wiki/Ruby_(programming_language'],
+  name: 'JQuery Learning',
+  discription: 'Tried with both JavaScript & JQuery library to understand how to code efficiantly with build in tools.',
+  discriptionDesktop: 'Tried with both JavaScript & JQuery library to understand how to code efficiantly with buildin tools. Also tried the same experiment with Slideshow.',
+  languages: ['HTML', 'CSS', 'JQuery'],
 },
 {
   // sixth Project
-  name: 'Website Protfolio',
-  discription: 'Sixth A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard',
-  discriptionDesktop: 'Sixth Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-  languages: ['html', 'bootstrap', 'Ruby'],
-  reference: ['https://en.wikipedia.org/wiki/HTML', 'https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework', 'https://en.wikipedia.org/wiki/Ruby_(programming_language'],
+  name: 'Informational Website',
+  discription: 'General informational website for American Logistics Company which was completly solo project done from getting domain, design, theme, hosting.',
+  discriptionDesktop: 'General informational website for American Logistics Company which was completly solo project done from getting domain, design, theme, hosting.',
+  languages: ['WORDPRESS', 'Divi', 'GSuite'],
 },
 ];
 // creating generic elements
@@ -100,7 +94,7 @@ function hide(toHide) {
 }
 const workContainer = document.querySelector('.work-display');
 
-const showWorkPopup = (index) => {
+/*const showWorkPopup = (index) => {
   // Define the targets
   const main = document.querySelector('.A');
   const sectionPopup = addElement('section', ['popUp'], main);
@@ -145,10 +139,10 @@ const showWorkPopup = (index) => {
 
   // Show
   show(sectionPopup);
-};
+};*/
 // dynamic content
 
-projects.forEach((card, index) => {
+/*projects.forEach((card, index) => {
   const workCard = addElement('div', ['work-2'], workContainer);
   const workContent = addElement('div', ['work2-content'], workCard);
   const workHeading1 = addElement('h1', [], workContent);
@@ -164,6 +158,37 @@ projects.forEach((card, index) => {
   listItem2.textContent = 'bootstrap';
   const listItem3 = addElement('li', ['list2'], listUrl);
   listItem3.textContent = 'ruby on rails';
+  const buttonWork = addElement('div', ['work2-button'], workCard);
+  const buttonWork1 = addElement('button', [], buttonWork);
+  buttonWork1.setAttribute('type', 'button');
+  buttonWork1.textContent = 'See Project';
+
+  buttonWork1.onclick = () => showWorkPopup(index);
+});*/
+
+projects.forEach((card) => {
+  const workCard = addElement('div', ['work-2'], workContainer);
+  const workContent = addElement('div', ['work2-content'], workCard);
+  const workHeading1 = addElement('h1', [], workContent);
+  workHeading1.textContent = card.name;
+  const workHeading2 = addElement('h2', [], workContent);
+  workHeading2.textContent = card.name;
+  
+  const workParagraph = addElement('p', [], workContent);
+  if (window.innerWidth < 768) {
+    // If mobile
+    workParagraph.textContent = card.discription;
+  } else {
+    // If desktop
+    workParagraph.textContent = card.discriptionDesktop;
+  }
+
+  const languageList = addElement('ul', [], workContent);
+  card.languages.forEach((language) => {
+    const listItem = addElement('li', ['list2'], languageList);
+    listItem.textContent = language;
+  });
+
   const buttonWork = addElement('div', ['work2-button'], workCard);
   const buttonWork1 = addElement('button', [], buttonWork);
   buttonWork1.setAttribute('type', 'button');
@@ -197,3 +222,47 @@ submit.addEventListener('click', (event) => {
     event.preventDefault();
   }
 }, false);
+
+const backgroundImages = [
+  'png/card1.png',
+  'png/card2.png',
+  'png/card3.png',
+  'png/card4.png',
+  'png/card5.png',
+  'png/card6.png',
+  // Add more image URLs or paths as needed
+];
+
+const links = {
+  project1: 'https://ehs9nino.github.io/capstone-o1-project/',
+  project2: 'https://ehs9nino.github.io/vacationDestination/',
+  project3: 'https://ehs9nino.github.io/advanceDistanceConverter/',
+  project4: 'https://ehs9nino.github.io/Awesome-books-SPA/',
+  project5: 'https://ehs9nino.github.io/TabbedInterfacewithjQuery/',
+  project6: 'https://fnfglobalinc.com/',
+};
+
+const work2Divs = document.getElementsByClassName('work-2');
+
+for (let i = 0; i < work2Divs.length; i++) {
+  const work2Div = work2Divs[i];
+  const button = work2Div.querySelector('.work2-button button');
+  const link = links[`project${i + 1}`];
+  const backgroundImage = backgroundImages[i];
+  const gradient = 'linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%)';
+
+  // Set the background image and gradient for the work2-div
+  work2Div.style.backgroundImage = `${gradient}, url(${backgroundImage})`;
+
+  // Set the link as the href attribute of the button
+  button.addEventListener('click', function() {
+    window.location.href = link;
+  });
+}
+function goToWorkSection() {
+  // Perform the desired action here, such as scrolling to the "work" section
+  window.open('https://drive.google.com/file/d/1J0-MzKC6gTuv25qdFXe7laWdzp_PBIau/view', '_blank');
+}
+function openGmail() {
+  window.location.href = 'mailto:ehs9nino@gmail.com';
+}
