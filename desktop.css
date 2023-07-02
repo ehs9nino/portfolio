@@ -32,6 +32,7 @@ body {
   display: grid;
   grid-template-columns: auto 662px;
   justify-content: normal;
+  padding-right: 0;
 }
 
 .details {
@@ -61,14 +62,32 @@ body {
 }
 
 .sm-two {
+  justify-content: center;
   background-color: #3c3a39;
+  grid-area: 1;
+  flex-direction: column;
+  color: white;
+  display: flex;
+  gap: 22.3px;
+  align-self: center;
+  padding: 0;
+  padding: 36px;
+  width: 100%;
 }
 
 .social-media > li {
   max-width: 16px;
 }
 
+.sm-two > li {
+  max-width: 16px;
+}
+
 .social-media > li img {
+  max-width: 16px;
+}
+
+.sm-two > li img {
   max-width: 16px;
 }
 
@@ -222,6 +241,7 @@ body {
 .about-me-background {
   background-image: url(./svg/illustration-about-me-desktop.svg);
   width: 555px;
+  padding-left: 30px;
   background-repeat: no-repeat;
   background-position: right;
 }

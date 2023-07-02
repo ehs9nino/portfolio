@@ -591,9 +591,25 @@ p {
 }
 
 .sm-two {
-  margin: 0;
-  padding: 23px 95px 21px 99px;
   justify-content: center;
+  background-color: #3c3a39;
+  grid-area: 1;
+  color: white;
+  display: flex;
+  gap: 22.3px;
+  align-self: center;
+  padding: 0;
+  padding: 36px;
+}
+
+.sm-two > li {
+  list-style-type: none;
+  max-width: 16px;
+  flex-direction: column;
+}
+
+.sm-two > li img {
+  max-width: 16px;
 }
 
 .separator-2 {
